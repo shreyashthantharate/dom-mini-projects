@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>User Generator</h1>
+
+      <button id="getUser">Get User</button>
+
+      <div id="loader">Loading...</div>
+
+      <div id="userCard">
+        <!-- Card will be injected here -->
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/100"
+            alt="User"
+            id="userImage"
+          />
+          <h3 id="userName">John Doe</h3>
+          <p id="userEmail">john@example.com</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
