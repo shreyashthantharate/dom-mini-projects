@@ -24,7 +24,7 @@ function fetchRandomUser() {
 }
 getUserBtn.addEventListener("click", fetchRandomUser);
 body.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
+  if (e.key === "Enter" || "Space") {
     e.preventDefault();
     fetchRandomUser();
   }
